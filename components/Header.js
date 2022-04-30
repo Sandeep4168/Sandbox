@@ -23,9 +23,16 @@ const Header = () => {
 
         </div>
        
-        <Image 
+        {/* <Image 
         className="object-contain" alt=" "
-        src="https://links.papareact.com/ua6" width={200} height={100}/>
+        src="https://links.papareact.com/ua6" width={200} height={100}/> */}
+
+        <div>
+          <h1 
+          className="tracking-wide text-3xl text-white mr-20 font-montserrat transition cursor-pointer 
+          duration-100 transform hover:scale-125"
+          > S A N D B O X</h1>
+        </div>
     
     </header>
   )
